@@ -56,4 +56,7 @@
        bump
        #:results ideas-attributions)
 
+(validate-attributions ideas-attributions)
+
 (attribute-antecedents ideas-attributions antecedents antecedents-attributions)
+(validate-attributions antecedents-attributions)
