@@ -16,6 +16,7 @@
 				* An early proof-of-concept of using tree-sitter was written.
 				* A more complete proof-of-concept using tree-sitter was written.
 				* The tree-sitter proof of concept was turned into a full implementation.
+				* The tree-sitter functionality was tested.
 		* Interfaces
 			* Evil
 				* The modal interface was implemented in a more robust way using evil.
@@ -28,6 +29,8 @@
 	* Support
 		* Documentation
 			* Basic docs were written.
+			* There was a suggestion to add a table to the docs documenting keybindings.
+			* A keybinding table was added to the docs.
 			* There was a suggestion to add "demo gifs" / an animated guide
 			* The animated guide was created.
 			* A typo was fixed in the readme
