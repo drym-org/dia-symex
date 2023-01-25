@@ -13,9 +13,12 @@
 * An early proof-of-concept of using tree-sitter was written.
 * A more complete proof-of-concept using tree-sitter was written.
 * The proof of concept was turned into a full implementation.
+* The tree-sitter functionality was tested.
 * A lightweight UI feedback overlay was added for tree-sitter
 * The overlay was generalized for use in lisp
 * Many early issues were reported.
+* There was a suggestion to add a table to the docs documenting keybindings.
+* A keybinding table was added to the docs.
 * There was a suggestion to add "demo gifs" / an animated guide
 * The animated guide was created.
 * A bug was reported in yank/paste with quoted symbols

@@ -1,8 +1,10 @@
 * Paredit
 * Lispy
 * Evil-cleverparens
-* evil-textobject
+* evil-surround
 * Hydra
 * Evil
 * Emacs
 * Melpazoid
+* Tsc
+* Tree-sitter
