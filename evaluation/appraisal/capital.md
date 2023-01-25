@@ -13,5 +13,5 @@
 			* A library providing the primitives for moving across and transforming expressions in non-Lisp languages. These primitives are used in the structural editing DSL to extend Symex's support to many non-Lisp languages. [TODO]
 			* A library providing access to the syntax tree for non-Lisp languages. [TODO]
 	* UI libraries [30%]
-		* A menu-driven interface [30%]
-		* A modal interface library [70%]
+		* A menu-driven interface that served as the initial prototype of the modal UI but is now largely deprecated. [30%]
+		* A modal interface library that is used to implement the primary modal UI used today. [70%]
