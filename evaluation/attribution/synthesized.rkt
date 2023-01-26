@@ -4,7 +4,9 @@
          relation
          "labor.rkt"
          "capital.rkt"
-         "ideas.rkt")
+         "ideas.rkt"
+         qi
+         relation)
 
 (define attributions (make-hash))
 
@@ -16,6 +18,7 @@
                       antecedents-attributions
                       attributions)
 
-(sort #:key cdr > (hash->list attributions))
+(sort #:key cdr > (hash->list (for/hash ([(k v) (in-hash attributions)])
+                                (values k (~>> (v) (~r #:precision '(= 2)) ->number)))))
 
 (validate-attributions attributions)
