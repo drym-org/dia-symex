@@ -8,9 +8,13 @@
 
 (define attributions (make-hash))
 
-(incorporate-appraisal labor-attributions .69 attributions)
-(incorporate-appraisal capital-attributions .23 attributions)
-(incorporate-appraisal antecedents-attributions .08 attributions)
+(define N 3)
+
+(reconcile-appraisals N
+                      labor-attributions
+                      capital-attributions
+                      antecedents-attributions
+                      attributions)
 
 (sort #:key cdr > (hash->list attributions))
 
