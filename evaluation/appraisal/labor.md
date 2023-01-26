@@ -15,8 +15,8 @@
 				* There was a suggestion to generalize Symex to work with non-lisp languages by using tree-sitter (5%)
 				* An early proof-of-concept of using tree-sitter was written. (10%)
 				* A more complete proof-of-concept using tree-sitter was written. (20%)
-				* The tree-sitter proof of concept was turned into a full implementation. (65%)
-				* The tree-sitter functionality was tested. [TODO]
+				* The tree-sitter proof of concept was turned into a full implementation. (60%)
+				* The tree-sitter functionality was tested. [5%]
 		* Interfaces (20%)
 			* Evil (85%)
 				* The modal interface was implemented in a more robust way using evil. (75%)
@@ -28,10 +28,10 @@
 				* The overlay was generalized for use in lisp (30%)
 	* Support (30%)
 		* Documentation (40%)
-			* Basic docs were written. (30%)
-			* There was a suggestion to add a table to the docs documenting keybindings. [TODO]
-			* A keybinding table was added to the docs. [TODO]
-			* There was a suggestion to add "demo gifs" / an animated guide (10%)
+			* Basic docs were written. (20%)
+			* There was a suggestion to add a table to the docs documenting keybindings. [5%]
+			* A keybinding table was added to the docs. [10%]
+			* There was a suggestion to add "demo gifs" / an animated guide (5%)
 			* The animated guide was created. (60%)
 			* A typo was fixed in the readme (0%)
 		* Bug reports (15%)
