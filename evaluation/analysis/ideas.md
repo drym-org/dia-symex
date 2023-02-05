@@ -22,6 +22,6 @@
 Cognates:
 * Tree-sitter
 
-Postcedents:
+Subsequents:
 * Tree-edit
 * Qi
