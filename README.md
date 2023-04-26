@@ -1,13 +1,11 @@
-# DIA Resources
+# DIA for Symex
 
-## Incorporating Adjustments
+This repo contains the deliberations and results of the process of Dialectical Inheritance Attribution (DIA) undertaken for the [Symex](https://github.com/drym-org/symex.el) project, in accordance with [Attribution-Based Economics](https://github.com/drym-org/foundation).
 
-When labor, capital or ideas inputs are modified to account for formerly left-out items, these "adjustments" could be incorporated by following these steps.
+The DIA process (and this repository) tracks developments on the appraised project.
 
-1. Update the input files.
-2. Use those to update the trees, adding hierarchy levels as needed.
-3. Use those to update the appraisals, leaving TODOs on all new items.
-4. Resolve the TODOs.
-5. Refer to the appraisals and update the deanonymized appraisals.
-6. Update the resulting tree data in the attributions scripts.
-7. Recompute the results by running ``$ racket synthesized.rkt``.
+Learn more about Attribution Based Economics:
+
+* [The talk introducing it at EmacsConf](https://www.youtube.com/watch?v=1WIulCmIHZ4)
+* The [Extended Q&A](https://emacsconf.org/2022/talks/maint/) covering a lot of questions about the implementation and goals
+* The [ABE Financial Model](https://drym-org.github.io/foundation/)
